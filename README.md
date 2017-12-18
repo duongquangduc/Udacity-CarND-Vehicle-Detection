@@ -4,7 +4,7 @@
 
 ## Writeup Report / README
 
-This is the project 5 Vehicle Detection and Tracking in Self-Driving Car Nanodegree course by Udacity. The goal is to write a software pipeline to detect vehicles in a video.
+This is the project Vehicle Detection and Tracking in Self-Driving Car Nanodegree course by Udacity. The goal is to write a software pipeline to detect vehicles in a video.
 For the original assignments can be found in [the project repository](https://github.com/udacity/CarND-Vehicle-Detection).
 
 ---
@@ -82,7 +82,6 @@ To see what the feature extracted looks like, please see as below.
 
 
 ### Sliding Window Search
-
 The sliding window search implementation can be found in the code cell #8. I used an overlap of 50%, 96x96 windows for 400 <= y <= 656, 128x128 windows for 380 <= y <= 720 and, 
 assuming it is known that the car is already on the most left lane, only searched for x values between 600 and 1280. The image below shows those windows (96x96 in blue and 128x128 in red):
 
@@ -109,12 +108,9 @@ Here's a [link to my video result](./project_video_output.mp4). Or you can watch
 ---
 
 ### Discussion
+Though the final output video showed a pretty good result, it actually took lots of effort to implement this algorithm, especially the hand-engineering for the feature engineering phase. Anyway, I learnt a lot from implementing a machine learning project from beginning to end. 
 
-Though the final output video showed that vehicles are detected, it takes lots of effort to implement the algorithm, especially in the feature engineering phase.
-Anyway, I learnt a lot in this project to implement a machine learning technique from beginning to end. For mastering these machine techniques, I consider the following things to do with
-this project;
+For mastering these machine techniques, I consider the following things in my future works:
 * Implement the pipeline to different sets of images
 * Try on different videos/lanes
 * Research and implement with Deep Learning approach, such as using the YOLO or SSD, which are very popular in deep learning model for computer vision.
-
-

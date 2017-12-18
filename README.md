@@ -102,7 +102,9 @@ I then used `scipy.ndimage.measurements.label()` to identify individual blobs in
 
 #### Provide a link to your final video output. 
 I combined the vehicle detection pipeline with a lane_detection which is implemented in project 4 for the same project.
-Here's a [link to my video result](./project_video_output.mp4)
+Here's a [link to my video result](./project_video_output.mp4). Or you can watch it by clicking the below thumbnail.
+
+[![Alt text](http://img.youtube.com/vi/kjy1slZQOAY/0.jpg)](https://youtu.be/kjy1slZQOAY)
 
 ---
 
